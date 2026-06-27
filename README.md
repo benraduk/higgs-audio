@@ -47,6 +47,8 @@ sgl-omni serve --model-path bosonai/higgs-audio-v3-tts-4b --port 8000
 
 Serving, voice-cloning, and streaming recipes are in the [model card](https://huggingface.co/bosonai/higgs-audio-v3-tts-4b) and the [SGLang-Omni cookbook](https://sgl-project.github.io/sglang-omni/cookbook/higgs_tts.html).
 
+**GPU self-host setup scripts:** see [SETUP_V3_GPU.md](./SETUP_V3_GPU.md) (`scripts/v3/setup_gpu.sh`, `serve.sh`, multilingual smoke tests).
+
 > [!NOTE]
 > Higgs Audio v3 is released under the **Boson Higgs Audio v3 Research and Non-Commercial License**. Production / hosted / revenue-generating use requires a separate commercial license.
 
